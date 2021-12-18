@@ -13,9 +13,22 @@ print_r($novoArray);
 $minhaData = new DateTime();
 print_r($minhaData);
 
+# EXCLUINDO VARIÁVEL
+unset($novoArray);
 
-# $meuObj = { a:'A', b:'B', c:'C', d:'D', e:'E', f:'F' };
+# Pode-se excluir várias variáveis
+unset($novoArray, $texto);
+
+# Retorna um erro
+// print_r($novoArray);
 
 # echo $texto;
+
+# VERIFICAR SE VARIÁVEL EXISTE
+
+if (isset($texto)) {
+    print('true');
+} else { print('false'); }
+
 
 ?>
