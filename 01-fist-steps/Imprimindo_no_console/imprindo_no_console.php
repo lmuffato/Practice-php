@@ -28,8 +28,11 @@ Todas as informações de despejo da variável, como tipo de elemento e subeleme
 print_r($texto);
 
 /*Assim como o eco , a impressão pode ser usada com ou sem parênteses.*/
-print($texto);
+print($texto."\n");
 
-echo $texto
+// O "\n" , pula uma linha ao final do echo
+echo $texto."\n";
+
+echo $texto."\n";
 
 ?>
