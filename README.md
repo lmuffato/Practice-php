@@ -1,19 +1,23 @@
 # Configuração Inicial para desenvolver em PHP
 
-1. Instalr o PHP (Ubuntu)
+1. Instalando o PHP no Linux (Ubuntu)
 
 ```
 sudo apt install php libapache2-mod-php
 sudo apt-get update
 ```
 
-2. Utilizando PHP no Vs Code
+2. Utilizando PHP no VsCode
 
-2.1. Instalar a extensão "code runner" para rodar o código no VS Code e receber o output no terminal.
+Existem duas maneiras de executar o código PHP no VsCode: 
+
+2.1. Instalar a extensão "code runner" para executar o código no VS Code e receber o output no terminal. Só executa os scripts dentro de <?php ... ?>.
 
 2.2. Instalar a extensão "PHP Server" para rodar o código no navegador.
+Essa extenão executa o HTML e os scripts do arquivo PHP, executando diretamento
+no navegador.
 
-# Configuração do APACHE
+# Informações adicionais na utilização do APACHE
 
 1. Arquivo de configuração do APACHE:
 `HTTPD.CONF`
