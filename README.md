@@ -11,7 +11,7 @@ sudo apt-get update
 
 Existem duas maneiras de executar o código PHP no VsCode: 
 
-2.1. Instalar a extensão "code runner" para executar o código no VS Code e receber o output no terminal. Só executa os scripts dentro de <?php ... ?>.
+2.1. Instalar a extensão "Code runner", que executa o código no terminal do VsCode e imprime o resultado no `Output` no terminal. Só executa os scripts dentro de `<?php ... ?>`.
 
 2.2. Instalar a extensão "PHP Server" para rodar o código no navegador.
 Essa extenão executa o HTML e os scripts do arquivo PHP, executando diretamento
