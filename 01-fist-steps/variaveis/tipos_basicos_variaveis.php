@@ -24,4 +24,7 @@ $verdade02 = true;
 $falso01 = FALSE;
 $falso02 = false;
 
+/* VERIFICAR O TIPO DE VARIÁVEL */
+print(gettype($inteiro)."\n"); // integer
+
 ?>

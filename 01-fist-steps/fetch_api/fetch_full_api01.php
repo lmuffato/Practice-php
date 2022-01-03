@@ -4,6 +4,7 @@
 
 $url = 'http://localhost:3002/post';
 $data = array('title' => 'Titulo php 3', 'content' => 'Texto em php 3');
+
 $options = array(
         'http' => array(
         'header'  => "Content-type: application/json\r\n", // header sem informação

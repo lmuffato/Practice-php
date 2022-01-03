@@ -10,7 +10,7 @@ var_dump($query);
 
 // Create Http context details
 $contextData = array (
-            'method' => 'GET',
+            'method' => 'POST',
             'header' => " ",
             'content'=> $query );
 
