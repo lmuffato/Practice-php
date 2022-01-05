@@ -3,7 +3,7 @@
 /* REQUISIÇÃO POST */
 
 $url = 'http://localhost:3002/post';
-$data = array('title' => 'Titulo php 3', 'content' => 'Texto em php 3');
+$data = array('title' => 'Titulo php 4', 'content' => 'Texto em php 4');
 
 $options = array(
         'http' => array(

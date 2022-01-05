@@ -28,6 +28,7 @@ print_r($arrayObj03);
 
 // Isso é equivalente a:
 /*
+
 const arrayObj03 = {
   nome: 'Lucas',
   sobreNome: 'Muffato',

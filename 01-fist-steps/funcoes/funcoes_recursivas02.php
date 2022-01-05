@@ -1,5 +1,8 @@
 <?php
 
+// rodar o servidor na pasta php -S localhost:8001 // porta escolha
+// php -S localhost:8001\funcoes_recursivas02.php
+
 $hierarquia = [
   ['nome_cargo' => 'CEO',
     'subordinados' => [
