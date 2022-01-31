@@ -35,8 +35,9 @@ function cpf_validation($cpf): bool {
   return true;
 }
 
-print_r(cpf_validation("026.670.150-70")."\n"); // true
-print_r(cpf_validation("026.670.150-7")."\n"); // true
-print_r(cpf_validation("777.777.777-77")."\n"); // true
+// Testando
+var_dump(cpf_validation("026.670.150-70")); // true
+var_dump(cpf_validation("026.670.150-7")); // false
+var_dump(cpf_validation("777.777.777-77")); // false
 
 ?>

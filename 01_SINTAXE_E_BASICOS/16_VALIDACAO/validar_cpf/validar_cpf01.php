@@ -29,7 +29,6 @@ else if ($cpf == '00000000000' ||
       }
 
 // Calcula os digitos verificadores para verificar se o CPF é válido
-
 else { for ($t = 9; $t < 11; $t++) {
     for ($d = 0, $c = 0; $c < $t; $c++) {
       $d += $cpf{$c} * (($t + 1) - $c);
