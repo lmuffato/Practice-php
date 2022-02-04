@@ -6,7 +6,7 @@ $arrayObj01 = array(
   "bar" => "foo",
 );
 
-// print($array[bar]);
+// print($arrayObj01["bar"]);
 
 // Sintexa curta
 $arrayObj02 = [
@@ -24,7 +24,7 @@ $arrayObj03 = [
   'escolas' => [ 'EAFA', 'São Camilo', 'Trybe' ]
 ];
 
-print_r($arrayObj03);
+// print_r($arrayObj03);
 
 // Isso é equivalente a:
 /*
