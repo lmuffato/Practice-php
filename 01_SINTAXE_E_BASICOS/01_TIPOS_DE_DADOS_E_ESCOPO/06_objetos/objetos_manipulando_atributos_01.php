@@ -10,6 +10,8 @@ $dog01['dono'] = "Lucas";
 
 array_push($dog01['vacinas'], "Parainfluenza Canina");
 
-var_dump($dog01)
+$dog01['nome'] = "Max";
+
+print_r($dog01)
 
 ?>

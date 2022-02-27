@@ -1,0 +1,5 @@
+{
+    "require": {
+        "flyingluscas/viacep-php": "^2.0"
+    }
+}
