@@ -21,7 +21,12 @@ BAIXAR O PACOTE:
 
 Procurar na documentação o comando da instalação via composer:
 
-Nesse caso desse pacote de teste viaCep PHP
+Os pacotes php do composer pondem ser verificados e acessados por esse
+site, onde é possível ver as versões e os comandos para instala-los.
+https://packagist.org/explore/
+
+
+O pacote para esse teste é o viaCep PHP, que pode ser instaldo pelo comando abaixo:
 
 ./composer require flyingluscas/viacep-php
 
